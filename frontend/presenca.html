@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Casa Aberta Senac - página para cadastro de presenças no evento" />
+  <meta name="keywords" content="casa aberta, senac, cadastro, evento, presença" />
+  <title>Casa Aberta - Senac Tatuapé | Registro de presença</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/presenca.css" />
+</head>
+
+<body class="bg-light">
+
+  <div class="container py-5">
+    <!-- Logo e Cabeçalho -->
+    <div class="text-center mb-4">
+      <img src="assets/img/casaAberta.png" alt="Logo Casa Aberta Senac" class="logo-casa-aberta mb-3" />
+      <h1 class="fw-bold">Registro de presença</h1>
+      <p class="text-muted">Bem-vindo ao evento Casa Aberta - Senac Tatuapé.</p>
+    </div>
+
+    <!-- Formulário -->
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6">
+        <div class="card shadow rounded-4">
+          <div class="card-body">
+            <form id="form-presenca" novalidate>
+
+              <div class="mb-3">
+                <label for="nome" class="form-label">Nome completo</label>
+                <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu nome completo"
+                  required />
+              </div>
+
+              <div class="mb-3">
+                <label for="dataNascimento" class="form-label">Data de nascimento</label>
+                <input type="date" class="form-control" id="dataNascimento" name="dataNascimento" required />
+              </div>
+
+              <div class="mb-3">
+                <label for="cpf" class="form-label">CPF</label>
+                <input type="text" class="form-control" id="cpf" name="cpf" placeholder="Ex: 000.000.000-00" required
+                  maxlength="14" />
+              </div>
+
+              <div class="mb-4">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu e-mail"
+                  required />
+              </div>
+
+              <!-- MENSAGEM DE TEXTO (simples e centralizada) -->
+              <div id="mensagem" class="text-center fw-bold mb-3"></div>
+
+              <div class="d-grid">
+                <button type="submit" class="btn btn-primary">Registrar presença</button>
+              </div>
+            </form>
+
+            <!-- Botão de Voltar -->
+            <div class="text-center mt-3">
+              <a href="index.html" class="btn btn-outline-secondary">⬅ Voltar para a tela anterior</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="mt-5 py-3 border-top text-center text-muted small">
+    © 2025 Projeto Casa Aberta Senac. Todos os direitos reservados.<br />
+    Desenvolvido pelo grupo InfraTech, turma de TI 04-23.
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/presenca.js"></script>
+</body>
+
+</html>

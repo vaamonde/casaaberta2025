@@ -1,0 +1,73 @@
+/* Estilo principal do Dashboard */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9efe0; /* Fundo padrão Senac */
+  color: #4a4a4a; /* Texto em cinza escuro */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+/* Container principal */
+.container {
+  background-color: #fff8f2; /* Fundo clarinho dentro do card */
+  border-radius: 24px;
+  padding: 40px 30px;
+  box-shadow:
+    0 10px 25px rgba(179, 124, 40, 0.25),
+    0 4px 10px rgba(179, 124, 40, 0.15);
+  max-width: 700px;
+  text-align: center;
+}
+
+/* Logo */
+.logo-casa-aberta {
+  max-width: 180px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+/* Títulos */
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #6b4c3b; /* Marrom suave */
+  margin-bottom: 0.5rem;
+  text-shadow: 0 1px 2px rgba(179, 124, 40, 0.5);
+}
+
+/* Texto de construção */
+.text-muted {
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #5a4b3a; /* Tom terroso escuro */
+  margin-bottom: 2rem;
+}
+
+/* Botão de retorno - padrão quadrado com cantos arredondados de 12px e largura fixa */
+.btn-primary {
+  background-color: #b37c28; /* Dourado terroso */
+  border: none;
+  font-weight: 700;
+  padding: 14px;
+  border-radius: 12px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #6b4c3b; /* Marrom mais escuro */
+  box-shadow: 0 8px 20px rgba(107, 76, 59, 0.6);
+  outline: none;
+}

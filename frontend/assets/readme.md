@@ -1,0 +1,1 @@
+Diretório para organizar organizar arquivos estáticos do sistema

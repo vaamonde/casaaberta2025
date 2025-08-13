@@ -1,0 +1,55 @@
+/* ========== BOTÕES QUADRADINHOS SENAC ========== */
+.btn-presenca,
+.btn-voltar,
+.btn-salvar,
+.btn-primary,
+.btn-warning,
+.btn-info,
+.btn {
+  font-size: 1.1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #f9efe0;
+  border: 2px solid #d8c7b1;
+  color: #6b4c3b;
+  border-radius: 12px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  font-weight: 700;
+  user-select: none;
+  max-width: 300px; /* limite max do botão */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Hover com cor mais escura, sem sombra */
+.btn-presenca:hover,
+.btn-voltar:hover,
+.btn-salvar:hover,
+.btn-primary:hover,
+.btn-warning:hover,
+.btn-info:hover,
+.btn:hover,
+.btn-presenca:focus,
+.btn-voltar:focus,
+.btn-salvar:focus,
+.btn-primary:focus,
+.btn-warning:focus,
+.btn-info:focus,
+.btn:focus {
+  background-color: #6b4c3b8c;
+  color: #fff;
+  outline: none;
+  box-shadow: none;
+}
+
+/* Ajuste para os botões dentro da grid do index */
+.d-grid .btn {
+  font-size: 1.1rem;
+  padding: 0.75rem 1.5rem;
+  max-width: none; /* para ficar full width na grid */
+  border-radius: 12px;
+  font-weight: 700;
+  width: 100%;
+}

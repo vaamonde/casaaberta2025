@@ -1,0 +1,23 @@
+{
+  "name": "projeto-senac-azure",
+  "version": "1.0.0",
+  "description": "Projeto Casa Aberta Senac. Backend para registro de presenças, feedback e dashboard.",
+  "author": "Erica Viana",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"No tests yet\""
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "mysql2": "^3.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

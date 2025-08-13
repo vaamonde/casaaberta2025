@@ -1,0 +1,61 @@
+body {
+  background-color: #f9efe0;
+  color: #4a4a4a;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo-casa-aberta {
+  max-width: 180px;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  background-color: #fff8f2;
+  box-shadow: 0 4px 12px rgba(249, 239, 224, 0.6);
+  border-radius: 16px;
+  border: none;
+}
+
+input,
+select,
+textarea {
+  border-radius: 10px;
+  border: 2px solid #d8c7b1;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #b37c28;
+  outline: none;
+}
+
+/* Botão igual ao feedback.css: quadrado, largura 100%, borda arredondada 12px */
+button[type="submit"] {
+  width: 100%;
+  padding: 14px;
+  background-color: #b37c28;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 1.5rem;
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:focus {
+  background-color: #6b4c3b;
+  outline: none;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #6b4c3b;
+  text-align: center;
+}
