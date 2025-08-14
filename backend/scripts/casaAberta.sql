@@ -1,6 +1,6 @@
 /* -------------------- CRIAR BANCO DE DADOS -------------------- */
-CREATE DATABASE casaAberta;
-USE casaAberta;
+CREATE DATABASE casaaberta;
+USE casaaberta;
 
 
 /* -------------------- TABELAS -------------------- */
@@ -20,7 +20,6 @@ CREATE TABLE feedbacks (
   nome VARCHAR(100),
   estrelas INT NOT NULL CHECK (estrelas BETWEEN 1 AND 5),
   comentario TEXT,
-  ip VARCHAR(45),
   data_hora DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
