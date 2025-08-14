@@ -1,5 +1,4 @@
 body {
-  background-color: #f9efe0;
   color: #4a4a4a;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -8,7 +7,6 @@ body {
   max-width: 180px;
   height: auto;
   border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .card {
